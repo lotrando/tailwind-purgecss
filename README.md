@@ -1,4 +1,4 @@
-# Tailwind-master
+# Tailwind-purgecss
 
 ### postcss, cssnano, purgecss autoprefixer vanilla project template
 
