@@ -1,4 +1,4 @@
-# TailwindCSS.master
+# Tailwind-master
 
 ### postcss, cssnano, purgecss autoprefixer vanilla project template
 
@@ -6,7 +6,7 @@ In files
 
 `tailwind.config.js` and `src/tailwind.css`
 
-added some Google fonts to demostrate addinf custom css to tailwind
+added some Google fonts to demostrate add some custom css to tailwind
 
 ## Installation
 
