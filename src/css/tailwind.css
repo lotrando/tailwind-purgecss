@@ -1,0 +1,11 @@
+/* Tailwind css with Rubik, Lato and Roboto Condesed Google fonts import by L0tr4nd0 2020 */
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+/* Tailwind components */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "npx:dev": "npx tailwind build src/css/tailwind.css -o dist/css/tailwind.css",
+    "postcss:dev": "postcss src/css/tailwind.css -o dist/css/tailwind.min.css",
+    "postcss:watch": "watch \"npm run postcss:dev\" ./src ./dist"
+  },
+  "keywords": [],
+  "author": "L0tr4nd0 - Miroslav Klika 2020",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.1",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
