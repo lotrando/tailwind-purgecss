@@ -1,6 +1,6 @@
 # Tailwind-purgecss
 
-### postcss, cssnano, purgecss autoprefixer vanilla project template
+### Simple postcss, cssnano, purgecss autoprefixer vanilla project template
 
 In files
 
