@@ -25,7 +25,7 @@ npm install
 ### For full big tailwind.css file for developing run
 
 ```
-npm run npx:dev
+npm run tailwind:dev
 ```
 
 and in index html edit css link.
@@ -37,7 +37,7 @@ and in index html edit css link.
 ### For minimized purged tailwind.css file for production run
 
 ```mermaid
-npm run postcss:production
+npm run tailwind:prod
 ```
 
 and no edit css link in index html.
