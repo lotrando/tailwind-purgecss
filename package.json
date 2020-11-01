@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "npx:dev": "npx tailwind build src/css/tailwind.css -o dist/css/tailwind.css",
-    "postcss:dev": "postcss src/css/tailwind.css -o dist/css/tailwind.min.css",
-    "postcss:watch": "watch \"npm run postcss:dev\" ./src ./dist"
+    "tailwind:dev": "npx tailwind build src/css/tailwind.css -o dist/css/tailwind.css",
+    "tailwind:prod": "postcss src/css/tailwind.css -o dist/css/tailwind.min.css"
   },
   "keywords": [],
   "author": "L0tr4nd0 - Miroslav Klika 2020",
