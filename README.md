@@ -1,28 +1,19 @@
 # Tailwind-purgecss
+## Simple postcss, cssnano, purgecss autoprefixer vanilla project template
 <h1 align="center">
   <img src="/dist/img/tailwind.png" alt="Tailwind logo" />
 </h1> 
-
-### Simple postcss, cssnano, purgecss autoprefixer vanilla project template
-
-In files
-
-`tailwind.config.js` and `src/tailwind.css`
-
-added some Google fonts to demostrate add some custom css to tailwind
-
 ## Installation
 
 ```
 git clone https://github.com/lotrando/tailwind-master.git
 ```
-
 in cloned project run ...
 
 ```
 npm install
 ```
-
+---
 ## Building tailwind css file
 
 ### Full big tailwind.css file for developing run
@@ -30,7 +21,6 @@ npm install
 ```
 npm run tailwind:dev
 ```
-
 and in index html edit css link.
 
 ```
@@ -39,8 +29,13 @@ and in index html edit css link.
 
 ### Minimized purged tailwind.css file for production run
 
-```mermaid
-npm run tailwind:prod
 ```
+npm run tailwind:prod
 
+```
 and no edit css link in index html.
+
+
+### Google fonts
+
+In files `tailwind.config.js` and `src/tailwind.css` inject some Google fonts to tailwind.css.
