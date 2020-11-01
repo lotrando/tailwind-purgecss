@@ -1,4 +1,7 @@
 # Tailwind-purgecss
+<h1 align="center">
+  <img src="/dist/img/tailwind.png" alt="Tailwind logo" />
+</h1> 
 
 ### Simple postcss, cssnano, purgecss autoprefixer vanilla project template
 
